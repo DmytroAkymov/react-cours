@@ -1,0 +1,56 @@
+.todoFormContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.todoFormContainer form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todoFormContainer input {
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #75b1ff;
+}
+
+.todoFormContainer input:hover {
+  background-color: #ffffff;
+}
+
+::placeholder {
+  color: #ffffff;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.todoFormContainer button {
+  background-color: #2775dc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.todoFormContainer button:hover {
+  background-color: #75b1ff;
+}
+
+.todoFormContainer input,
+.todoFormContainer button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+}
